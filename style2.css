@@ -1,14 +1,85 @@
+@font-face {
+    font-family: 'Aniron';
+    src: url('font-title/anirm___.ttf');
+}
+
+@font-face {
+    font-family: 'Party';
+    src: url('font-text/partybusiness.ttf');
+}
+
+@font-face{
+	font-family: 'Tengwar';
+	src: url('font-spec/tngan.ttf');
+}
+
+.body, p, small, div{
+	font-family: Party;
+}
+
+.carousel-caption{
+	font-size:5em;
+	top: 40%;
+}
+
+h2 em, h4 em{
+	font-family: Tengwar;
+	color: #ff5f01;
+}
+
+h2, h3, h4, h5{
+	font-family: Aniron;
+	font-weight: bold;
+}
+
+.act{
+	color: #ff5f01;
+	border-bottom: #ff5f01 3px solid;
+}
+
+
+.navbar{
+	background-color: #ff5f01;
+}
+
+.nav-link{
+	color: white;
+	font-family: Aniron;
+	font-size: 1em;
+}
+
+.nav-link:hover {
+	color: white;
+	border-bottom: white 3px solid;
+}
+
 .card-img-overlay{
 	padding-top: 0.5rem;
 	background-color: rgba(255,255,255,0.3);
 }
 
-.card-text{
+.card{
+	border : 4px black solid;
+	padding: 0;
+}
+
+
+.card-img-overlay .card-text{
 	background-color: rgba(255,255,255, 0.5);
 	border-radius: 10px;
 	text-align: center;
-	font-size: 90%;
+	font-size: 170%;
 	height: 30%;
+}
+
+.dead-overlay{
+	
+}
+
+.dead-text{
+	color: #ff5f01;
+	font-size: 2em;
+	background-color: rgba(255,255,255, 0);
 }
 
 .card-text em{
@@ -17,12 +88,20 @@
 }
 
 .card-title{
+	font-family: Party;
+	font-size: 3em;
 	font-weight: bold;
 	width: 100%;
 	text-align: center;
 	color: white;
 	bottom: 10px;
 	margin-top: 40%;
+}
+
+.card-body{
+	background-color: black;
+	color: white;
+	font-size: 2em;
 }
 
 .card-img-overlay:hover{
@@ -35,7 +114,7 @@
 
 .card-img-overlay:hover .card-title{
 	margin-top: 90%;
-	font-size: 0.8em;
+	font-size: 1.5em;
 }
 
 @media screen and (max-width: 575px){
