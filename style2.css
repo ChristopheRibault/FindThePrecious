@@ -14,7 +14,11 @@
 }
 
 .body, p, small, div{
-	font-family: Party;
+	font-family: Party;;
+}
+
+p{
+	font-size: 1.2em;
 }
 
 .carousel-caption{
@@ -22,7 +26,7 @@
 	top: 40%;
 }
 
-h2 em, h4 em{
+h3 em, h4 em{
 	font-family: Tengwar;
 	color: #ff5f01;
 }
@@ -42,6 +46,10 @@ h2, h3, h4, h5{
 	background-color: #ff5f01;
 }
 
+.navbar-toggler{
+	z-index: 0;
+}
+
 .nav-link{
 	color: white;
 	font-family: Aniron;
@@ -58,7 +66,7 @@ h2, h3, h4, h5{
 	background-color: rgba(255,255,255,0.3);
 }
 
-.card{
+.card-fellow{
 	border : 4px black solid;
 	padding: 0;
 }
@@ -72,22 +80,12 @@ h2, h3, h4, h5{
 	height: 30%;
 }
 
-.dead-overlay{
-	
-}
-
-.dead-text{
-	color: #ff5f01;
-	font-size: 2em;
-	background-color: rgba(255,255,255, 0);
-}
-
 .card-text em{
 	color: coral;
 	font-weight: bold;
 }
 
-.card-title{
+.card-title-fellow{
 	font-family: Party;
 	font-size: 3em;
 	font-weight: bold;
@@ -98,10 +96,14 @@ h2, h3, h4, h5{
 	margin-top: 40%;
 }
 
-.card-body{
+.card-body-fellow{
 	background-color: black;
 	color: white;
 	font-size: 2em;
+}
+
+.card-text-fellow{
+	font-size: 1em;
 }
 
 .card-img-overlay:hover{
@@ -122,7 +124,7 @@ h2, h3, h4, h5{
 		font-size: 180%;
 	}
 
-	.card-title{
+	.card-title-fellow{
 		font-size: 2.5em;
 	}
 
@@ -135,6 +137,65 @@ h2, h3, h4, h5{
 	padding: 6px;
 }
 
+#captured{
+	background-color: black;
+	color: white;
+	padding: 10px;
+}
+
+#fellows{
+	background-image: url('images/bg_light.png');
+	padding: 10px;
+}
+
+#contact-btn{
+	color: #ff5f01;
+	font-size: 1.5em;
+}
+
+#best{
+	background-image: url('images/bg_light.png');
+}
+
+#about{
+	background-color: black;
+	color: white;
+}
+
+#join{
+	background-image: url('images/bg_light.png');
+}
+
+#contact{
+	background-color: black;
+	color: white;
+}
+
+.cit{
+	text-align: right;
+	width: 100%;
+	color: grey;
+}
+
+section{
+	padding: 20px;
+}
+
+.hunter-name{
+	font-size: 2em;
+	color: #ff5f01
+}
+
+.card-header-about{
+	background-color: #ff5f01;
+}
+
+.footer{
+	background-color: #ff5f01;
+	color: white;
+	font-size: 1em;
+}
+
 .footer-link{
 	list-style-type: none;
 	padding: 10px;
@@ -142,4 +203,26 @@ h2, h3, h4, h5{
 
 .footer-link a{
 	color: white;
+	font-family: Aniron;
+}
+
+.card-about{
+	border-bottom: 3px #ff5f01 solid;
+}
+
+.card-body-about{
+	color: black;
+	font-size: 1.5em;
+}
+
+.btn-sauron{
+	background-color: black;
+	color: #ff5f01;
+	font-family: Aniron;
+	padding: 10px;
+}
+
+.text-sauron{
+	font-family: Aniron;
+	color: #ff5f01;
 }
